@@ -53,7 +53,6 @@ const LoginForm = () => {
     });
   };
 
-
   return (
     <>
       <Form noValidate validated={validated} onSubmit={handleFormSubmit}>
@@ -85,10 +84,7 @@ const LoginForm = () => {
           />
           <Form.Control.Feedback type='invalid'>Password is required!</Form.Control.Feedback>
         </Form.Group>
-        <Button
-          disabled={!(userFormData.email && userFormData.password)}
-          type='submit'
-          variant='success'>
+        <Button disabled={!(userFormData.email && userFormData.password)} type='submit' variant='success'>
           Submit
         </Button>
       </Form>
