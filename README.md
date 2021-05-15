@@ -1,4 +1,4 @@
-# Book Search Engine Starter Code
+# Book Search Engine
 ## Description
 A MERN stack book search engine utilizing GraphQL for queries and mutations.
 ## Built With
